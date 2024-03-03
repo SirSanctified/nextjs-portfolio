@@ -12,7 +12,7 @@ import {
 
 const Navbar = () => {
   return (
-    <header className="fixed top-0 left-auto max-w-7xl px-4 py-2 w-full bg-transperant">
+    <header className="fixed top-0 left-auto max-w-7xl px-4 pr-8 py-2 w-full bg-gradient-to-r from-primary/85 to-purple/85">
       <nav className="hidden md:flex items-center justify-between gap-8">
         <Link href="/">
           <Image
@@ -42,7 +42,7 @@ const Navbar = () => {
         </ul>
       </nav>
       {/* Mobile */}
-      <nav className="flex md:hidden items-center justify-between gap-8">
+      <nav className="flex md:hidden items-center justify-between gap-8 pr-4">
         <Link href="/">
           <Image
             src="/logo-white.svg"
