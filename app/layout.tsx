@@ -16,7 +16,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`${poppins.className} bg-primary text-secondary`}>
+      <body className={`${poppins.className} bg-gradient-to-r from-primary to-purple-950  text-secondary`}>
         <main className="flex min-h-screen max-w-7xl flex-col items-center justify-between p-24 mx-auto">
           <Navbar />
           {children}
