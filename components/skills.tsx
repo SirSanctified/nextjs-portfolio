@@ -13,9 +13,12 @@ const Skills = () => {
           <div className="w-2 h-1 bg-gray-400" />
         </div>
       </div>
-      <div className="w-full flex flex-wrap items-center flex-col justify-center md:flex-row gap-4">
+      <div className="w-full flex flex-wrap items-center  justify-center gap-4">
         {skills.map((skill, index) => (
-          <div key={index} className="bg-gray-200 px-4 py-2 rounded-md">
+          <div
+            key={index}
+            className="bg-indigo-200 text-indigo-950 px-4 py-2 rounded-md"
+          >
             {skill}
           </div>
         ))}

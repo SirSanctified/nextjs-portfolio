@@ -5,7 +5,7 @@ import { Github, MoveRight } from "lucide-react";
 
 const Hero = () => {
   return (
-    <main className="w-full mt-6 relative min-h-[70vh]">
+    <main className="w-full mt-6 relative min-h-[70vh] flex flex-col justify-center">
       <h1 className="text-lg md:text-xl font-medium text-center w-full mb-2">
         Hi, I am Pritchard Mambambo!
       </h1>

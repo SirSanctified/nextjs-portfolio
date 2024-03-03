@@ -13,7 +13,7 @@ const Services = () => {
           <div className="w-2 h-1 bg-gray-400" />
         </div>
       </div>
-      <div className="w-full flex flex-wrap items-center flex-col justify-center md:flex-row gap-4">
+      <div className="md: ml-0 w-full flex items-center flex-col justify-center md:flex-row flex-wrap gap-4">
         {services.map((service, index) => (
           <ServiceCard key={index} {...service} />
         ))}

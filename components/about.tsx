@@ -7,7 +7,7 @@ import Skills from "./skills";
 
 const About = () => {
   return (
-    <section id="about" className="mt-8 min-h-[70vh] w-full relative">
+    <section id="about" className="md:mt-8 min-h-[70vh] w-full relative">
       <h1 className="md:pl-24 text-lg md:text-xl font-medium text-start w-full mb-2">
         About Me
       </h1>
