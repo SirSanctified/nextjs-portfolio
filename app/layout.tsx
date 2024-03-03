@@ -3,6 +3,7 @@ import "./globals.css";
 import { poppins } from "@/config/fonts";
 import Navbar from "@/components/navbar";
 import Footer from "@/components/footer";
+import { FollowerPointerCard } from "@/components/ui/following-pointer";
 
 export const metadata: Metadata = {
   title: "Pritchard Mambambo | Fullstack Software Developer",
@@ -51,11 +52,13 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${poppins.className} bg-gradient-to-r from-primary to-purple-950  text-secondary flex min-h-screen max-w-7xl flex-col justify-between w-full mx-auto`}
+        className={`${poppins.className} bg-gradient-to-r from-primary to-purple-950  text-secondary flex  max-w-7xl flex-col justify-between w-full mx-auto`}
       >
-        <Navbar />
-        <div className="pt-24 px-4">{children}</div>
-        <Footer />
+        <FollowerPointerCard>
+          <Navbar />
+          <div className="pt-24 px-4 min-h-screen">{children}</div>
+          <Footer />
+        </FollowerPointerCard>
       </body>
     </html>
   );
