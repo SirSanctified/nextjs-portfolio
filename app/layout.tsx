@@ -58,7 +58,7 @@ export default function RootLayout({
         <TracingBeam className="px-1">
           <FollowerPointerCard>
             <Navbar />
-            <div className="flex  max-w-7xl flex-col justify-between w-full mx-auto pt-24 px-4 pr-8 min-h-screen">
+            <div className="flex  max-w-7xl flex-col justify-between w-full mx-auto pt-24 px-4 min-h-screen">
               {children}
             </div>
             <Footer />
