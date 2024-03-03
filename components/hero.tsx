@@ -19,7 +19,7 @@ const Hero = () => {
         <p className="text-gray-400 text-md mt-6 max-w-[60ch] lg:max-w-4xl mx-auto">
           I build software solutions that are scalable, reliable and secure
           using modern technologies. In need of a software solution or someone
-          to help you change te world with your brilliant idea? I am just a
+          to help you change the world with your brilliant idea? I am just a
           message away.
         </p>
         <div className="flex flex-col sm:flex-row justify-center gap-4 md:gap-8 mt-8">
