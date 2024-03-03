@@ -73,12 +73,4 @@
   body {
     @apply bg-background text-foreground;
   }
-
-  .btn-primary {
-    @apply bg-purple-500 text-primary-foreground rounded-xl hover:bg-transparent hover:border-2 hover:border-secondary transition-all duration-500 ease-in-out focus:outline-none focus:ring-2 focus:ring-ring hover:shadow-xl hover:scale-105; 
-  }
-
-  .btn-primary-outline {
-    @apply bg-transparent text-secondary border-2 border-secondary rounded-xl hover:bg-white hover:text-primary transition-all duration-500 ease-in-out focus:outline-none focus:ring-2 focus:ring-ring hover:shadow-xl hover:scale-105;
-  }
 }
