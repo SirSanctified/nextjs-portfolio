@@ -2,6 +2,7 @@ import React from "react";
 import { BentoGrid, BentoGridItem } from "@/components/ui/bento-grid";
 import Link from "next/link";
 import DottedUnderline from "./dottedUnderline";
+import Image from "next/image";
 
 export function Projects() {
   return (
@@ -42,15 +43,21 @@ function ProjectGrid() {
     </BentoGrid>
   );
 }
-const Skeleton = () => (
-  <div className="flex flex-1 w-full h-full min-h-[6rem] rounded-xl   dark:bg-dot-white/[0.2] bg-dot-black/[0.2] [mask-image:radial-gradient(ellipse_at_center,white,transparent)]  border border-transparent dark:border-white/[0.2] bg-neutral-100 dark:bg-black"></div>
-);
+
 const items = [
   {
     title: "DevsKonnekt",
     description:
       "A social media platform for developers to connect, share ideas, and collaborate on projects. Built with Express, MongoDB, Next.js, and TailwindCss.",
-    header: <Skeleton />,
+    header: (
+      <Image
+        src="/devskonnekt.png"
+        alt="DevsKonnekt"
+        width={500}
+        height={500}
+        className="rounded-xl object-cover"
+      />
+    ),
     className: "md:col-span-2 bg-gradient-to-r from-indigo-400 to-purple-400",
     href: "https://devskonnekt.vercel.app",
   },
@@ -58,7 +65,15 @@ const items = [
     title: "Car Rental Web App",
     description:
       "A modernised fullstack version of Impala Car Rental's website. Built with Django, PostgreSQL, React (Typescript), and TailwindCss.",
-    header: <Skeleton />,
+    header: (
+      <Image
+        src="/impala.png"
+        alt="Impala Car Rental"
+        width={500}
+        height={500}
+        className="rounded-xl object-cover"
+      />
+    ),
     className: "md:col-span-1 bg-gradient-to-r from-indigo-400 to-purple-400",
     href: "https://impala2.netlify.app",
   },
@@ -66,7 +81,15 @@ const items = [
     title: "Nicebuilt Construction Website",
     description:
       "Nicebuilt Construction's website. A modern, responsive, and SEO optimised website. Built with Next.js (Typescript) and TailwindCss",
-    header: <Skeleton />,
+    header: (
+      <Image
+        src="/nicebuilt.png"
+        alt="Nicebuilt Construction"
+        width={500}
+        height={500}
+        className="rounded-xl object-cover"
+      />
+    ),
     className: "md:col-span-1 bg-gradient-to-r from-indigo-400 to-purple-400",
     href: "https://nicebuiltconstruction.co.zw",
   },
@@ -74,7 +97,15 @@ const items = [
     title: "Roomio",
     description:
       "A room searching platform for students to find and book rooms near their universities. Built with Django, PostgreSQL, Next.js (Typecript), and TailwindCss, using Docker for containerization.",
-    header: <Skeleton />,
+    header: (
+      <Image
+        src="/roomio.png"
+        alt="Roomio"
+        width={500}
+        height={500}
+        className="rounded-xl object-cover"
+      />
+    ),
     className: "md:col-span-2 bg-gradient-to-r from-indigo-400 to-purple-400",
     href: "https://github.com/student-accommodation-api",
   },
