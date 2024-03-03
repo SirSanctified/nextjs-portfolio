@@ -1,13 +1,15 @@
 import React from "react";
 import { BentoGrid, BentoGridItem } from "@/components/ui/bento-grid";
 import Link from "next/link";
+import DottedUnderline from "./dottedUnderline";
 
 export function Projects() {
   return (
     <section id="projects" className="md:mt-8 min-h-[70vh] w-full relative">
-      <h2 className="text-xl sm:text-2xl md:text-4xl font-bold text-center">
+      <h2 className="text-xl sm:text-2xl md:text-4xl font-bold text-center mb-2">
         Some of my work
       </h2>
+      <DottedUnderline direction="horizontal" />
       <p className="text-gray-400 text-center text-md mt-6 mb-4 max-w-[60ch] lg:max-w-4xl mx-auto">
         Here are some of the projects I have worked on. You can find more of my
         work on my{" "}
