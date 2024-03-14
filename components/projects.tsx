@@ -55,10 +55,10 @@ const items = [
         alt="DevsKonnekt"
         width={500}
         height={500}
-        className="rounded-xl object-cover"
+        className="rounded-xl w-full max-h-[200px] object-cover"
       />
     ),
-    className: "md:col-span-2 bg-gradient-to-r from-indigo-400 to-purple-400",
+    className: "md:col-span-2 bg-gradient-to-r from-indigo-800 to-purple-800",
     href: "https://devskonnekt.vercel.app",
   },
   {
@@ -71,10 +71,10 @@ const items = [
         alt="Impala Car Rental"
         width={500}
         height={500}
-        className="rounded-xl object-cover"
+        className="rounded-xl w-full max-h-[200px] object-cover"
       />
     ),
-    className: "md:col-span-1 bg-gradient-to-r from-indigo-400 to-purple-400",
+    className: "md:col-span-1 bg-gradient-to-r from-indigo-800 to-purple-800",
     href: "https://impala2.netlify.app",
   },
   {
@@ -87,10 +87,10 @@ const items = [
         alt="Nicebuilt Construction"
         width={500}
         height={500}
-        className="rounded-xl object-cover"
+        className="rounded-xl w-full max-h-[200px] object-cover"
       />
     ),
-    className: "md:col-span-1 bg-gradient-to-r from-indigo-400 to-purple-400",
+    className: "md:col-span-1 bg-gradient-to-r from-indigo-800 to-purple-800",
     href: "https://nicebuiltconstruction.co.zw",
   },
   {
@@ -103,10 +103,10 @@ const items = [
         alt="Roomio"
         width={500}
         height={500}
-        className="rounded-xl object-cover"
+        className="rounded-xl w-full max-h-[200px] object-cover"
       />
     ),
-    className: "md:col-span-2 bg-gradient-to-r from-indigo-400 to-purple-400",
-    href: "https://github.com/student-accommodation-api",
+    className: "md:col-span-2 bg-gradient-to-r from-indigo-800 to-purple-800",
+    href: "https://github.com/SirSanctified/student-accommodation-api",
   },
 ];
