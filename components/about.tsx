@@ -21,23 +21,7 @@ const About = () => {
         desire to solve problems with code, tackle tough challenges and build
         innovative solutions.
       </p>
-      <div className="flex flex-col sm:flex-row justify-center gap-4 mt-8">
-        <div className="bg-indigo-400 rounded-lg p-4 w-full sm:max-w-[300px]">
-          <h3 className="text-white text-center font-semibold text-lg">
-            3+ Years of Experience
-          </h3>
-        </div>
-        <div className="bg-indigo-400 rounded-lg p-4 w-full sm:max-w-[300px]">
-          <h3 className="text-white text-center font-semibold text-lg">
-            10+ Projects Completed
-          </h3>
-        </div>
-        <div className="bg-indigo-400 rounded-lg p-4 w-full sm:max-w-[300px]">
-          <h3 className="text-white text-center font-semibold text-lg">
-            90%+ Client Satisfaction
-          </h3>
-        </div>
-      </div>
+      
       <Services />
       <Skills />
       <div className="absolute bottom-16 -left-8 xl:left-0 hidden md:block max-w-[50px]">

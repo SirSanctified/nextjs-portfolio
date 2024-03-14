@@ -16,10 +16,6 @@ export const services: Service[] = [
   {
     title: "E-commerce Development",
     description: "Build online stores with secure shopping carts and integrated payment solutions."
-  },
-  {
-    title: "Database Design and Management",
-    description: "Model and manage relational or non-relational databases for efficient data storage."
   }
 ];
 
