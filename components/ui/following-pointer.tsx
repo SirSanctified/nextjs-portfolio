@@ -72,12 +72,12 @@ export const FollowPointer = ({
 }) => {
   const colors = [
     "var(--sky-500)",
-    "var(--neutral-500)",
-    "var(--teal-500)",
-    "var(--green-500)",
+    "var(--gray-500)",
+    "var(--purple-500)",
+    "var(--indigo-500)",
     "var(--blue-500)",
     "var(--red-500)",
-    "var(--yellow-500)",
+    "var(--orange-500)",
   ];
   return (
     <motion.div

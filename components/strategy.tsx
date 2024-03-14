@@ -8,6 +8,7 @@ const Strategy = () => {
         How I Approach Your Project
       </h1>
       <DottedUnderline direction="horizontal" />
+      <p  className="text-gray-400 text-md mt-6 max-w-[60ch] lg:max-w-4xl mx-auto">With this focused approach, I am dedicated to delivering a solution that not only addresses your immediate needs but also sets the stage for your long-term success.</p>
     <StickyScroll content={strategies} />
     </section>;
 };
