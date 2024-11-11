@@ -56,13 +56,11 @@ export default function RootLayout({
         className={`${poppins.className} bg-gradient-to-r from-primary to-purple-950  text-secondary`}
       >
         <TracingBeam className="px-1">
-          <FollowerPointerCard>
             <Navbar />
             <div className="flex  max-w-7xl flex-col justify-between w-full mx-auto pt-24 px-4 min-h-screen">
               {children}
             </div>
             <Footer />
-          </FollowerPointerCard>
         </TracingBeam>
       </body>
     </html>

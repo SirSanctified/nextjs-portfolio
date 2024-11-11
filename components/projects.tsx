@@ -46,12 +46,12 @@ function ProjectGrid() {
 
 const items = [
   {
-    title: "DevsKonnekt",
+    title: "propsearch.co.zw",
     description:
-      "A social media platform for developers to connect, share ideas, and collaborate on projects. Built with Express, MongoDB, Next.js, and TailwindCss.",
+      "A property listings website.",
     header: (
       <Image
-        src="/devskonnekt.png"
+        src="/propsearch-home-preview.png"
         alt="DevsKonnekt"
         width={500}
         height={500}
@@ -59,7 +59,7 @@ const items = [
       />
     ),
     className: "md:col-span-2 bg-gradient-to-r from-indigo-800 to-purple-800",
-    href: "https://devskonnekt.vercel.app",
+    href: "https://propsearch.co.zw",
   },
   {
     title: "Car Rental Web App",
